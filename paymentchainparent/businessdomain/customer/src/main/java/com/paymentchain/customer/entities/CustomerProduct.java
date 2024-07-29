@@ -24,7 +24,7 @@ import lombok.Data;
  */
 @Data
 @Entity
-class CustomerProduct {
+public class CustomerProduct {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
